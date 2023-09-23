@@ -1,66 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
-  
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-        The Great Light Triumphant Ministries
-      </a>
-    
-      <a class="navbar-brand" href="#">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Events</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Contact Us
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+    <nav id="page__navbar">
+      <div class="navbar__linkContainer">
+        <a class="navbar__link" href="#">About</a>
+        <a class="navbar__link" href="#">Location</a>
+        <a class="navbar__link" href="#">Events</a>
       </div>
-    </div>
-  </nav>
-
-  <div class="container">
-  <img src="pray.jpg" width="1360" height="640">
-   <div class="centered">Life did not constitute in what you have . what you give determine who you are.,<br> Whatever we have is given to us by God, He gives us so that we can bless others.<br> -Pastor A.IHEMS</div>
-</div>
-  
+    </nav>
+    <header id="page__header">
+      <div>
+        <span>
+          <h1>The</h1>
+        </span>
+        <span>
+          <h1>Great Light</h1>
+        </span>
+        <span>
+          <h1>Triumphant Ministries</h1>
+        </span>
+      </div>
+    </header>
+    <main id="page__content">
+      <div class="content__header">
+        <div class="content__title">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quam
+          tempore! Aspernatur, autem accusamus sit in corrupti error earum
+          nesciunt totam molestias aliquid soluta possimus modi blanditiis sequi
+          corporis quaerat!
+        </div>
+        <div class="content__subtitle">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, eum
+          sunt. Ad eius, placeat accusamus perspiciatis corporis animi ipsam
+          unde, doloribus hic sed nihil, alias iste minima atque iusto magni.
+        </div>
+      </div>
+      <div class="content__body">
+        <article class="content__article">
+          <div class="article__box">
+            <h1 class="article__box__header">lorem</h1>
+            <p class="article__box__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              tempora, quo nemo natus obcaecati, neque quam nulla veniam ipsa
+              hic rem ut magnam id, atque cumque reprehenderit cum incidunt
+              molestias.
+            </p>
+            <button class="article__box__button">Read more</button>
+          </div>
+          <div class="article__box">
+            <h1 class="article__box__header">lorem</h1>
+            <p class="article__box__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              tempora, quo nemo natus obcaecati, neque quam nulla veniam ipsa
+              hic rem ut magnam id, atque cumque reprehenderit cum incidunt
+              molestias.
+            </p>
+            <button class="article__box__button">Read more</button>
+          </div>
+          <div class="article__box">
+            <h1 class="article__box__header">lorem</h1>
+            <p class="article__box__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              tempora, quo nemo natus obcaecati, neque quam nulla veniam ipsa
+              hic rem ut magnam id, atque cumque reprehenderit cum incidunt
+              molestias.
+            </p>
+            <button class="article__box__button">Read more</button>
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer id="page__footer">
+      <div class="footer__social">
+        <h1 class="social__header">Keep up with us on social media</h1>
+        <div class="social__content">
+          <img src="./facebook.png" alt="facebook" />
+          <img src="./instagram.png" alt="instagram" />
+          <img src="./linkedin.png" alt="linkedin" />
+          <img src="./twitter.png" alt="twitter" />
+        </div>
+      </div>
+      <div class="footer__contact">
+        <div class="contact__heading">
+          <div class="contact__name">
+            <h3>THE GREAT LIGHT</h3>
+            <h3>TRIUMPHANT MINISTRIES</h3>
+          </div>
+          <div class="contact__info">
+            <div class="info__section">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aspernatur quidem vel, tenetur voluptas nobis debitis quaerat
+                illum magni quasi, animi iusto aliquam corporis id! Quisquam neque
+                culpa voluptatum adipisci expedita!</p>
+            </div>
+            <div class="info__section">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aspernatur quidem vel, tenetur voluptas nobis debitis quaerat
+                illum magni quasi, animi iusto aliquam corporis id! Quisquam neque
+                culpa voluptatum adipisci expedita!</p>
+            </div>
+            <div class="info__section">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aspernatur quidem vel, tenetur voluptas nobis debitis quaerat
+                illum magni quasi, animi iusto aliquam corporis id! Quisquam neque
+                culpa voluptatum adipisci expedita!</p>
+            </div>
+            <div class="info__section">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aspernatur quidem vel, tenetur voluptas nobis debitis quaerat
+                illum magni quasi, animi iusto aliquam corporis id! Quisquam neque
+                culpa voluptatum adipisci expedita!</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact__footer">
+          <p>© Copyright 2023. All Right Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
-
-
-
-
-
